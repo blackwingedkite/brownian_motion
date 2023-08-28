@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 sns.set()
 import tejapi
-tejapi.ApiConfig.api_key = 'LVKpS4S9gTN2YRJcQsXPWdx3InBFIQ'
+tejapi.ApiConfig.api_key = 'YOUR-TEJ-KEY'
 tejapi.ApiConfig.ignoretz = True
 ticker = [] #多幾個
 ret = tejapi.get('TWN/EWPRCD2', # 我這邊需要日報酬率
